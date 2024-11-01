@@ -2,6 +2,9 @@
  * Solution by GetTemplates.co
  * URL: https://GetTemplates.co
  */
+ html{
+  font-size: 16px;
+ }
  @font-face {
   font-family: "Lato-Regular";
   src: url(../fonts/Lato-Regular.ttf);
@@ -110,7 +113,21 @@ body {
   width: 50%;
   margin-bottom: 2rem;
 }
+#branches{
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 900;
+  text-decoration:underline;
+}
 
+.info_Branches{
+  font-size: 3.3rem;
+  font-weight: 900;
+  font-style: italic;
+  font-display:initial;
+  text-indent: .5rem;
+}
 @media (min-width: 1200px) {
   .container {
     max-width: 1240px;
