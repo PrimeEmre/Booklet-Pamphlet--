@@ -135,10 +135,10 @@ body {
 
 .info_Branches{
   font-size: 3.3rem;
-  font-weight: 900;
   font-style: italic;
   font-display:initial;
   text-indent: .5rem;
+  font-weight: 900;
 }
 #plicts_party{
   width: 150%;
@@ -147,6 +147,13 @@ body {
   font-family: 'Times New Roman', Times, serif;
   line-height: 1.2rem;
   text-align: center;
+}
+.citizen_Reponstibliets{
+  margin-left: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  font-weight: 900;
+  font-style: italic;
 }
 @media (min-width: 1200px) {
   .container {
